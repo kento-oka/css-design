@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="./style/base.css">
+        <link rel="stylesheet" href="./style/component/dl.css">
+        <link rel="stylesheet" href="./style/component/tabs.css">
+        <link rel="stylesheet" href="./style/component/table.css">
+        <link rel="stylesheet" href="./style/component/code.css">
+        <link rel="stylesheet" href="./style/component/metrics.css">
+        <link rel="stylesheet" href="./style/component/icon.css">
+        <link rel="stylesheet" href="https://cdn.rawgit.com/utatti/perfect-scrollbar/54103fab/css/perfect-scrollbar.css">
+        <style>
+            #header .title{
+                background: #9e3a38;
+            }
+            #header .message{
+                background: #b0413e;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="main-wrapper">
+            <header id="header">
+                <div class="title">
+                    <div class="center-container">
+                        <abbr title="Symfony\Component\Debug\Exception\ClassNotFoundException">ClassNotFoundException</abbr>
+                    </div>
+                </div>
+                <div class="message">
+                    <div class="center-container">
+                        <span>Attempted to load class "IntlTimeZone" from the global namespace. Did you forget a "use" statement?</span>
+                    </div>
+                </div>
+            </header>
+            <main id="main">
+                <div class="center-container">
+                    <section>
+                        <header>
+                            <h2>
+                                <abbr title="Symfony\Component\Debug\Exception\ClassNotFoundException">ClassNotFoundException</abbr>
+                            </h2>
+                        </header>
+                        <dl class="split">
+                            <dt>in vendor\twig\extensions\lib\Twig\Extensions\Extension\Intl.php (line 71)</dt>
+                            <dd>
+                                <details>
+                                    <summary>source code</summary>
+                                    <div class="code">
+                                        <ol start="159">
+                                            <li><div><code></code><code></code></div></li>
+                                            <li class="highlight"><div><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){</code></div></li>
+                                            <li><div><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>if(is_string($service)){</code></div></li>
+                                            <li><div><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code>if(!class_exists($service)){</code></div></li>
+                                            <li class="highlight"><div><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code>throw new \InvalidArgumentException();</code></div></li>
+                                            <li><div><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code>}</code></div></li>
+                                            <li><div><code></code><code></code></div></li>
+                                            <li><div><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code>if(!$this->resolver->getClassResolver($service)->getReflection()->isInstantiable()){</code></div></li>
+                                        </ol>
+                                    </div>
+                                </details>
+                            </dd>
+                            <dt>in vendor\twig\extensions\lib\Twig\Extensions\Extension\Intl.php (line 71)</dt>
+                            <dd>
+                                <details>
+                                    <summary>source code</summary>
+                                    <div class="code">
+                                        <ol start="159">
+                                            <li><div><code></code><code></code></div></li>
+                                            <li class="highlight"><div><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){</code></div></li>
+                                            <li><div><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>if(is_string($service)){</code></div></li>
+                                            <li><div><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code>if(!class_exists($service)){</code></div></li>
+                                            <li class="highlight"><div><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code>throw new \InvalidArgumentException();</code></div></li>
+                                            <li><div><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code>}</code></div></li>
+                                            <li><div><code></code><code></code></div></li>
+                                            <li><div><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code>if(!$this->resolver->getClassResolver($service)->getReflection()->isInstantiable()){</code></div></li>
+                                        </ol>
+                                    </div>
+                                </details>
+                            </dd>
+                            <dt>in vendor\twig\extensions\lib\Twig\Extensions\Extension\Intl.php (line 71)</dt>
+                            <dd>
+                                <details>
+                                    <summary>source code</summary>
+                                    <div class="code">
+                                        <ol start="159">
+                                            <li><div><code></code><code></code></div></li>
+                                            <li class="highlight"><div><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){</code></div></li>
+                                            <li><div><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>if(is_string($service)){</code></div></li>
+                                            <li><div><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code>if(!class_exists($service)){</code></div></li>
+                                            <li class="highlight"><div><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code>throw new \InvalidArgumentException();</code></div></li>
+                                            <li><div><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code>}</code></div></li>
+                                            <li><div><code></code><code></code></div></li>
+                                            <li><div><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code>if(!$this->resolver->getClassResolver($service)->getReflection()->isInstantiable()){</code></div></li>
+                                        </ol>
+                                    </div>
+                                </details>
+                            </dd>
+                            <dt>in vendor\twig\extensions\lib\Twig\Extensions\Extension\Intl.php (line 71)</dt>
+                            <dd>
+                                <details>
+                                    <summary>source code</summary>
+                                    <div class="code">
+                                        <ol start="159">
+                                            <li><div><code></code><code></code></div></li>
+                                            <li class="highlight"><div><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){</code></div></li>
+                                            <li><div><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>if(is_string($service)){</code></div></li>
+                                            <li><div><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code>if(!class_exists($service)){</code></div></li>
+                                            <li class="highlight"><div><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code>throw new \InvalidArgumentException();</code></div></li>
+                                            <li><div><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code>}</code></div></li>
+                                            <li><div><code></code><code></code></div></li>
+                                            <li><div><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code>if(!$this->resolver->getClassResolver($service)->getReflection()->isInstantiable()){</code></div></li>
+                                        </ol>
+                                    </div>
+                                </details>
+                            </dd>
+                            <dt>in vendor\twig\extensions\lib\Twig\Extensions\Extension\Intl.php (line 71)</dt>
+                            <dd>
+                                <details>
+                                    <summary>source code</summary>
+                                    <div class="code">
+                                        <ol start="159">
+                                            <li><div><code></code><code></code></div></li>
+                                            <li class="highlight"><div><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){if(is_string($service)){</code></div></li>
+                                            <li><div><code>&nbsp;&nbsp;&nbsp;&nbsp;</code><code>if(is_string($service)){</code></div></li>
+                                            <li><div><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code>if(!class_exists($service)){</code></div></li>
+                                            <li class="highlight"><div><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code>throw new \InvalidArgumentException();</code></div></li>
+                                            <li><div><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code>}</code></div></li>
+                                            <li><div><code></code><code></code></div></li>
+                                            <li><div><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code>if(!$this->resolver->getClassResolver($service)->getReflection()->isInstantiable()){</code></div></li>
+                                        </ol>
+                                    </div>
+                                </details>
+                            </dd>
+                        </dl>
+                    </section>
+                </div>
+            </main>
+        </div>
+        <script src="https://cdn.rawgit.com/utatti/perfect-scrollbar/54103fab/dist/perfect-scrollbar.min.js"></script>
+        <script>
+            (function(){
+                new PerfectScrollbar(
+                    'body',
+                    {
+                        'suppressScrollX': true
+                    }
+                );
+
+                if(null !== document.querySelector('#menu ul')){
+                    new PerfectScrollbar(
+                        '#menu ul',
+                        {
+                            "suppressScrollX": true,
+                            "wheelPropagation": false,
+                        }
+                    );
+                }
+
+                new PerfectScrollbar(
+                    ".horizon-scroll",
+                    {
+                        "suppressScrollY": true,
+                    }
+                );
+            })();
+        </script>
+        <script>
+            (function(){
+                var tabList         = document.querySelectorAll('ul.tabs li'),
+                    tabCount        = tabList.length,
+                    selectClass     = 'selected',
+                    getTabElements  = function(name){
+                        if('string' !== typeof name){
+                            return [];
+                        }
+
+                        return document.querySelectorAll(
+                            '[data-tabs-tab="' + name + '"]'
+                        );
+                    },
+                    removeSelected  = function(name){
+                        var tabs        = getTabElements(name),
+                            tabsCount   = tabs.length
+                        ;
+
+                        for(var i = 0; i < tabsCount; i++){
+                            if(tabs[i].classList.contains(selectClass)){
+                                tabs[i].classList.remove(selectClass);
+                            }
+                        }
+                    },
+                    addSelected     = function(name){
+                        var tabs        = getTabElements(name),
+                            tabsCount   = tabs.length
+                        ;
+
+                        for(var i = 0; i < tabsCount; i++){
+                            if(!tabs[i].classList.contains(selectClass)){
+                                tabs[i].classList.add(selectClass);
+                            }
+                        }
+                    },
+                    getTabName      = function($dom){
+                        if('undefined' === typeof $dom.dataset.tabsTab){
+                            return null;
+                        }
+
+                        return $dom.dataset.tabsTab;
+                    }
+                ;
+
+                for(var i = 0; i < tabCount; i++){
+                    tabList[i].addEventListener(
+                        'click',
+                        function(){
+                            var brotherTabs = this.parentNode.children,
+                                brotherCnt  = brotherTabs.length
+                            ;
+
+                            for(var i = 0; i < brotherCnt; i++){
+                                removeSelected(getTabName(brotherTabs[i]));
+                            }
+
+                            addSelected(getTabName(this));
+                        },
+                        false
+                    );
+                }
+            })();
+        </script>
+    </body>
+</html>
